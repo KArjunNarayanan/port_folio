@@ -6,7 +6,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header><h1>K Arjun Narayanan</h1></header>
+    <header id="home"><h1>K Arjun Narayanan</h1></header>
     <p>Web Developer | Designer | Freelancer<p>
     <main>
         <ul>
@@ -72,6 +72,87 @@
         </ol>
     </section>
     <hr>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio website.</p>
+        <h3>Student Management System</h3>
+        <p>Created using Python and MySQL.</p>
+    </section>
+    <hr>
+
+    <section id="schedule">
+        <h3>Weekly Study Schedule</h3>
+        <table border="1">
+                <thead>
+                    <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Monday</td>
+                    <td  rowspan="2" >HTML5</td>
+                    <td> 2</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td colspan="2">Project Practice</td>
+                </tr>
+                </tbody>
+        </table>
+    </section>
+    <hr>
+    <section id="media">
+        <h3>Media Gallery</h3>
+        <h4>Responsive Image</h4>
+        <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" width="100% " alt="gallery_img">
+        <h3>Video</h3>
+        <video controls autoplay src="video1.mp4" width="50%" height="30%"></video>
+        <h3>Audio</h3>
+        <audio controls src="eritnhut1992-audio-for-video-editing-11-368969 (1).mp3"></audio>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=T7Gs1hMo-YHhgjNW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <hr>
+    </section>
+    <section id="contact">
+            <h3>Contact Me</h3>
+            <label>Full Name:</label><br><input type="text" required><br><br>
+            <label>Email:</label><br><input type="email" required><br><br>
+            <label>Password:</label><br><input type="password" required><br><br>
+            <label>Age:</label><br><input type="number" required><br><br>
+            <label>Gender:</label><br><input type="radio" name="gender"><label>Male</label><input type="radio" name="gender"><label>Female</label>
+            <br><br><label>Skills:</label><br>
+           <input type="checkbox"><label>HTML</label><input type="checkbox"><label>CSS</label><input type="checkbox"><label>JavaScript</label><br>
+            <br><label>Course:</label><br>
+            <select>
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">javaScript</option>
+            </select> 
+            <br><br>
+            <label>Message:</label><br>
+            <textarea rows="10" cols="40" required></textarea>  <br><br>
+            <label>Country:</label><br>
+            <input type="text" value="India" readonly><br><br>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Reset Form">
+        </section>
+        <hr>
     </main>
+    <footer>
+        <p>©2026 K Arjun Narayanan. All Rights Reserved.</p><br><br>
+        <section id="github"><a href="https://github.com/KArjunNarayanan">Github</a></section><span> | </span>
+        <a href="#home">Back to Top</a>
+    </footer>
+
 </body>
 </html>
